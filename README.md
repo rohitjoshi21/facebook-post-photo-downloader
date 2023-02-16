@@ -18,6 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```git clone https://github.com/rohitjoshi21/facebook-post-photo-downloader.git```
 
 2. Install the required packages:
+
 ```pip install -r requirements.txt```
 
 ## Usage
@@ -25,6 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Navigate to the directory where you cloned the repository.
 
 2. Run the `main.py` file, passing in the link to the Facebook post as an argument:
+
 ```python main.py https://www.facebook.com/yourusername/posts/1234567890123456```
 
 
