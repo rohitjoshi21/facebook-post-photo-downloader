@@ -7,11 +7,13 @@ import sys
 import os
 
 
+#Provide link of the post with the first photo opened
+
 def get_url_from_args():
     if len(sys.argv) > 1:
         url = sys.argv[1]
     else:
-        url = "https://www.facebook.com/photo?fbid=139334082361780&set=a.130296589932196"
+        url = input()
     return url
         
     
